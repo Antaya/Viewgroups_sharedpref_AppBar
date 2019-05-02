@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Viewgroups_sharedpref_AppBar</string>
+    <string name="app_name">Меню</string>
     <string name="Notebook">Записная книжка</string>
     <string name="settings">Settings</string>
-    <string name="button_SaveNote">button_SaveNote</string>
+    <string name="button_SaveNote">Сохранить</string>
+    <string name="title">Записная книжка</string>
 </resources>

@@ -29,10 +29,11 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_open_notes:
-                Toast.makeText(MainActivity.this, "Открыть записную книжку", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this, NotesActivity.class);
+                startActivity(intent);
                 break;
             case R.id.action_settings:
-                Toast.makeText(MainActivity.this, "Settings activivty", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Settings activity", Toast.LENGTH_LONG).show();
                 break;
             default:
                 return super.onOptionsItemSelected(item);
