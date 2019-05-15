@@ -32,6 +32,30 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, NotesActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.action_open_addresses:
+                 intent = new Intent(MainActivity.this, AddressesActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.action_open_jellyfish:
+                intent = new Intent(MainActivity.this, SplashScreenActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.action_open_payment:
+                intent = new Intent(MainActivity.this, PaymentActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.action_open_subscription:
+                intent = new Intent(MainActivity.this, SubscriptionActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.action_open_tasks:
+                intent = new Intent(MainActivity.this, TasksActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.action_open_view:
+                intent = new Intent(MainActivity.this, ViewActivity.class);
+                startActivity(intent);
+                break;
             case R.id.action_settings:
                 Toast.makeText(MainActivity.this, "Settings activity", Toast.LENGTH_LONG).show();
                 break;

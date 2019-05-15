@@ -18,9 +18,28 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".NotesActivity"
-            android:label="@string/title">
+        <activity
+            android:name=".NotesActivity"
+            android:label="@string/title_NotesActivity"></activity>
+        <activity
+            android:name=".AddressesActivity"
+            android:label="@string/title_AddressesActivity">
+
         </activity>
-    </application>
+            <activity
+            android:name=".JellyfishActivity"
+            android:label="@string/title_JellyfishActivity"></activity>
+        <activity android:name=".SplashScreenActivity"></activity>
+        <activity android:name=".PaymentActivity"
+            android:label="@string/title_PaymentActivity"></activity>
+        <activity android:name=".SubscriptionActivity"
+            android:label="@string/title_SubscriptionActivity"></activity>
+        <activity android:name=".TasksActivity"
+            android:label="@string/title_TasksActivity"></activity>
+        <activity android:name=".ViewActivity"
+            android:label="@string/title_ViewActivity"></activity>
+            </application>
+
+
 
 </manifest>

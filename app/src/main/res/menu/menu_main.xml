@@ -16,4 +16,40 @@
         android:orderInCategory="100"
         android:title="@string/Notebook"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_payment"
+        android:orderInCategory="100"
+        android:title="@string/payment"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_addresses"
+        android:orderInCategory="100"
+        android:title="@string/addresses"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_tasks"
+        android:orderInCategory="100"
+        android:title="@string/tasks"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_subscription"
+        android:orderInCategory="100"
+        android:title="@string/subscription"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_view"
+        android:orderInCategory="100"
+        android:title="@string/view"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_jellyfish"
+        android:orderInCategory="100"
+        android:title="@string/jellyfish"
+        app:showAsAction="never" />
+
+
 </menu>

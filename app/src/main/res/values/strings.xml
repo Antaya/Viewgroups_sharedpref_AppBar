@@ -3,5 +3,52 @@
     <string name="Notebook">Записная книжка</string>
     <string name="settings">Settings</string>
     <string name="button_SaveNote">Сохранить</string>
-    <string name="title">Записная книжка</string>
+    <string name="title_NotesActivity">Записная книжка</string>
+    <string name="payment">Оплата</string>
+    <string name="addresses">Адреса</string>
+    <string name="tasks">Сроки задачи</string>
+    <string name="subscription">Подписка</string>
+    <string name="view">Просмотр</string>
+    <string name="jellyfish">Медуза</string>
+    <string name="Show_address">Показать адрес</string>
+    <string name="title_AddressesActivity">Адреса</string>
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Белоруссия</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
+    <string name="title_JellyfishActivity">Jellyfish</string>
+    <string name="title_PaymentActivity">Оплата</string>
+    <string name="money">Ввод денег</string>
+    <string name="info_on_payment">Информация об оплате</string>
+    <string name="with_a_credit_card">С банковской карты</string>
+    <string name="mobile_payment">С мобильного телефона</string>
+    <string name="cash_payment">Наличными по адресу</string>
+    <string name="title_SubscriptionActivity">Подписка</string>
+    <string name="name">Имя пользователя</string>
+    <string name="button_ok">OK</string>
+    <string name="button_clear">Отмена</string>
+    <string name="message_confirmation">Подписка на рассылку успешно оформлена для пользователя %1$s на электронный адрес %2$s</string>
+    <string name="email">Электронная почта</string>
+    <string name="title_TasksActivity">.view_components_CalendarView</string>
+    <string name="start_date">Дата-время старта задачи:</string>
+    <string name="end_date">Дата-время окончания задачи:</string>
+    <string name="title_ViewActivity">Просмотр фото</string>
+    <string name="bottom_back">Назад</string>
+    <string name="bottom_go">Вперед</string>
 </resources>
